@@ -1,0 +1,71 @@
+h1{
+    background-color: aqua;
+}
+h2{
+    background-color: blue;
+    display: INLINE;
+    /* PADDING */
+    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+    /* the order is top - right - bottom - left */
+    padding: 10px 20px 30px 40px;
+    /*the order is top and bottom - left and right */
+    padding: 20px 30px;
+    /* Border */
+    border: 2px solid #000;
+
+    /* margin */
+    margin: 30px;
+    /* just like padding you also the same settings.
+    */
+/* } */
+
+/* start of container and row */
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+h1 {
+    background-color: blueviolet;
+}
+
+.row {
+    disply: flex;
+    flex-wrap: wrap;
+}
+
+.box1 {
+    width: 40%;
+    margin: auto;
+}
+
+.box2 {
+    width: 30%;
+    margin: auto;
+}
+
+.box3 {
+    width: 40%;
+    margin: auto;
+}
+
+.box3 img {
+    width: 100;
+}
+
+.box4 img {
+    width: 100;
+}
+
+.box5 {
+    width: 45%;
+    margin: auto;
+}
+
+.box5 .box5 1 {
+    width: 100%;
+}
